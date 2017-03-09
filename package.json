@@ -1,0 +1,16 @@
+{
+  "name": "node-twilio-video-back-end-client",
+  "version": "1.0.0",
+  "description": "Twilio video nodejs example how we can use twilio video client (webRTC) on back-end to join the rooms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nikolay Lukyanchuk",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^2.11.1",
+    "twilio-video": "^1.0.0-beta4",
+    "wrtc": "0.0.61"
+  }
+}
